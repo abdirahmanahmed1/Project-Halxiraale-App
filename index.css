@@ -1,11 +1,20 @@
 .container {
 /* kalarkan wad iska badali karta hadad rabtid */
-    background-color: aqua;
-    margin: 100px 300px;
+    background-color: #00ffff;
+    margin: 100px 100px 100px 100px;
+    width:70vw;
+    height: 70vh;
     border-radius: 25px;
 }
-
-p {
-    padding: 220px 200px;
-   text-align: center;
+.button span{
+    background: burlywood;
+    border-radius: 30px;
+    color: white;
+    margin-left: 40%;
+    width:10%;
+    
+    padding: 10px;
+    text-transform: capitalize ;
+    
 }
+
