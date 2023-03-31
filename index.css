@@ -5,6 +5,7 @@
     width:70vw;
     height: 70vh;
     border-radius: 25px;
+    width: 60%;
 }
 .button span{
     background: burlywood;
@@ -16,5 +17,21 @@
     padding: 10px;
     text-transform: capitalize ;
     
+}
+
+.next-btn{
+    background-color: rgb(80, 80, 255);
+    color: white;
+    padding: 10px 40px;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+.next-btn:hover{
+    background-color: rgb(50, 50, 255);
+    transition: all 0.3s;
 }
 
