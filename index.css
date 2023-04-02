@@ -1,37 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
-/* kalarkan wad iska badali karta hadad rabtid */
-    background-color: #00ffff;
-    margin: 100px 100px 100px 100px;
-    width:70vw;
-    height: 70vh;
+    background-color: aqua;
+    align-items: center;
+    margin: 70px 230px;
     border-radius: 25px;
-    width: 60%;
-}
-.button span{
-    background: burlywood;
-    border-radius: 30px;
-    color: white;
-    margin-left: 40%;
-    width:10%;
-    
-    padding: 10px;
-    text-transform: capitalize ;
-    
 }
 
-.next-btn{
-    background-color: rgb(80, 80, 255);
-    color: white;
-    padding: 10px 40px;
-    margin-left: 45%;
-    margin-bottom: 50px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
-}
-.next-btn:hover{
-    background-color: rgb(50, 50, 255);
-    transition: all 0.3s;
+.nav {
+    margin-left: 15px;
+    text-align: center;
 }
 
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-inline: 10px;
+}
+
+.nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fa-solid{
+    padding-right: 5px;
+}
+
+.time {
+    text-align: center;
+    padding-top: 10px ;
+}
+
+.time p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.time span {
+    background-color: rgb(0, 81, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.quetil{
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.quetil span {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 35px;
+}
+
+.answ {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.ans1 {
+    display: inline;
+    background-color: green;
+    border-radius: 7px;
+    margin-left: 280px;
+    padding: 10px 65px;
+}
+
+.ans2 {
+    display: inline;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 7px;
+    padding: 10px 60.5px;
+}
+
+.answ2 {
+    margin-bottom: 40px;
+}
+
+.ans3 {
+    display: inline;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 280px;
+    padding: 10px 52.5px;
+}
+
+.ans4 {
+    display: inline;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 7px;
+    padding: 10px 54px;
+}
+
+button {
+background-color: rgb(0, 81, 255);
+border-radius: 20px;
+border: none;
+margin-bottom: 125px;
+text-transform: uppercase;
+cursor: pointer;
+padding: 10px 30px;
+margin-left: 395px;
+}
