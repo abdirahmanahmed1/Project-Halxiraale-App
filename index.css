@@ -1,11 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container {
-/* kalarkan wad iska badali karta hadad rabtid */
     background-color: aqua;
-    margin: 100px 300px;
+    align-items: center;
+    margin: 70px 230px;
     border-radius: 25px;
 }
 
-p {
-    padding: 220px 200px;
-   text-align: center;
+.nav {
+    margin-left: 15px;
+    text-align: center;
 }
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-inline: 10px;
+}
+
+.nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fa-solid{
+    padding-right: 5px;
+}
+
+.time {
+    text-align: center;
+    padding-top: 10px ;
+}
+
+.time p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.time span {
+    background-color: rgb(0, 81, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.que {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.que span {
+    background-color: white;
+    border: solid 1px grey;
+    padding: 25px 35px;
+    border-radius: 10px;
+}
+
+.answ {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.answ2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.ans1 {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 7px;
+    padding: 10px 66px;
+    display: inline;
+}
+
+.ans2 {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 7px;
+    padding: 10px 62px;
+    display: inline;
+}
+
+.ans3 {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 7px;
+    padding: 10px 53.5px;
+    display: inline;
+}
+
+.ans4 {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 7px;
+    padding: 10px 55.5px;
+    display: inline;
+}
+
+.click {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.click button {
+background-color: rgb(0, 81, 255);
+border-radius: 20px;
+border: none;
+text-transform: uppercase;
+cursor: pointer;
+padding: 10px 30px;
+margin-bottom: 125px;
+}
+
+/* margin-left: 395px; */
+/* margin-bottom: 125px; */
+
+/* .quetil{
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.quetil span {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 35px;
+}
+
+.answ {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.ans1 {
+    display: inline;
+    background-color: green;
+    border-radius: 7px;
+    margin-left: 280px;
+    padding: 10px 65px;
+}
+
+.ans2 {
+    display: inline;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 7px;
+    padding: 10px 60.5px;
+}
+
+
+.ans3 {
+    display: inline;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 280px;
+    padding: 10px 52.5px;
+}
+
+.ans4 {
+    display: inline;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 7px;
+    padding: 10px 54px;
+} */
+
